@@ -14,8 +14,8 @@
 > **Screen**: UiKittenFormikForm
 
  - [X] Text fielda
-  - Add icons for password
-  - Add additional events
+  - [ ] Add icons for password
+  - [ ] Add additional events
 - [X] Switch
 - [X] Select
 - [ ] Autocomplete
@@ -24,4 +24,3 @@
 - [ ] Upload button
 
 ## Apollo & GraphQL codegen
-
