@@ -1,10 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import React from "react";
+import { StatusBar } from "expo-status-bar";
+import { ApplicationProvider } from "@ui-kitten/components";
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import * as eva from "@eva-design/eva";
 
-import useCachedResources from './hooks/useCachedResources';
-import useColorScheme from './hooks/useColorScheme';
-import Navigation from './navigation';
+import useCachedResources from "./hooks/useCachedResources";
+import useColorScheme from "./hooks/useColorScheme";
+import Navigation from "./navigation";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -15,8 +17,10 @@ export default function App() {
   } else {
     return (
       <SafeAreaProvider>
-        <Navigation colorScheme={colorScheme} />
-        <StatusBar />
+        <ApplicationProvider {...eva} theme={eva.light}>
+          <Navigation colorScheme={colorScheme} />
+          <StatusBar />
+        </ApplicationProvider>
       </SafeAreaProvider>
     );
   }
