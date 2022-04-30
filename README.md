@@ -13,9 +13,9 @@
 
 > **Screen**: UiKittenFormikForm
 
-- [X] Text field
-  - [ ] Add icons for password
-  - [ ] Add additional events
+- [X] Text fielda
+ - [ ] Add icons for password
+ - [ ] Add additional events
 - [X] Switch
 - [X] Select
 - [ ] Autocomplete
