@@ -24,3 +24,8 @@
 - [ ] Upload button
 
 ## Apollo & GraphQL codegen
+
+### Docs
+
+- [apollo](https://www.apollographql.com/docs/react/get-started/)
+- [codegen](https://www.graphql-code-generator.com/docs/getting-started/installation)
